@@ -2,7 +2,9 @@
 
 # Scientific questions. Heterogeneous hardware. Checked answers.
 
-**ASTRO is building a heterogeneous scientific compute fabric that discovers, optimizes, executes and independently validates mathematical workloads across CPUs, GPUs, ray-tracing hardware and AI accelerators.**
+**ASTRO is building a heterogeneous scientific compute fabric that discovers, optimizes, executes and validates mathematical workloads across CPUs, GPUs, ray-tracing hardware and AI accelerators.**
+
+Independent distributed validation is a planned network capability; local execution already uses independent mathematical reference checks within its stated scope.
 
 From astronomy and physics to biology, chemistry, AI, engineering and realtime workloads, our goal is a unified, self-optimizing research compute network.
 
@@ -18,7 +20,9 @@ From astronomy and physics to biology, chemistry, AI, engineering and realtime w
 |---|---|---|---|
 | Establish real device capabilities | Search legal runtime and kernel paths | Match work to suitable hardware | Check the unchanged mathematical contract |
 
-The development project contains experimental local GPU search, bounded Runtime Fusion and RT-compute paths. This first public source preview provides **81 canonical CPU reference primitives, including 66 SPACE entries**, analytic vectors and a complete 94-entry registry inventory. A bounded Linux Vulkan demo now provides four fixed MathSpecs with DIRECT/TILED execution, canonical correctness checks and automatic stop. Unrestricted search distribution and external human review remain open.
+The development project contains experimental local GPU search, bounded Runtime Fusion and RT-compute paths. The current public package provides **81 canonical CPU reference primitives, including 66 SPACE entries**, analytic vectors and a complete 94-entry registry inventory. A bounded Linux Vulkan demo now provides four fixed MathSpecs with DIRECT/TILED execution, canonical correctness checks and automatic stop, native build sources and correctness CI. [Try the GPU demo](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/docs/GPU_DEMO.md). Unrestricted search distribution and external human review remain open.
+
+ASTRO is scientific compute first: AI/Tensor execution and Scientist AI are components of the broader mathematical compute system.
 
 ## The system we are building
 
