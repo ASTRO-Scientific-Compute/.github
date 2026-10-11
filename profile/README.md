@@ -18,7 +18,7 @@ From astronomy and physics to biology, chemistry, AI, engineering and realtime w
 |---|---|---|---|
 | Establish real device capabilities | Search legal runtime and kernel paths | Match work to suitable hardware | Check the unchanged mathematical contract |
 
-The development project contains experimental local GPU search, bounded Runtime Fusion and RT-compute paths. This first public source preview provides **81 canonical CPU reference primitives, including 66 SPACE entries**, analytic vectors and a complete 94-entry registry inventory. The full GPU distribution and independent release review remain in development.
+The development project contains experimental local GPU search, bounded Runtime Fusion and RT-compute paths. This first public source preview provides **81 canonical CPU reference primitives, including 66 SPACE entries**, analytic vectors and a complete 94-entry registry inventory. A bounded Linux Vulkan demo now provides four fixed MathSpecs with DIRECT/TILED execution, canonical correctness checks and automatic stop. Unrestricted search distribution and external human review remain open.
 
 ## The system we are building
 
@@ -54,4 +54,4 @@ Benchmark storage is **run → validate → profile → cleanup**. Real research
 - **[astro-compute](https://github.com/ASTRO-Scientific-Compute/astro-compute)** — public reference source, architecture, contracts, status and roadmap.
 - **[.github](https://github.com/ASTRO-Scientific-Compute/.github)** — this organization profile.
 
-Start with the [contribution guide](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/CONTRIBUTING.md) or review the [correctness model](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/docs/VALIDATION.md). Licensing is pending an explicit project-owner decision. Read the [security policy](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/SECURITY.md) before reporting sensitive issues.
+Start with the [contribution guide](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/CONTRIBUTING.md) or review the [correctness model](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/docs/VALIDATION.md). **Source-available demonstration software. Free to evaluate using the included demo. All other use requires explicit permission from the copyright holder.** Not an open-source or OSI-approved license; [read the license](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/LICENSE). Read the [security policy](https://github.com/ASTRO-Scientific-Compute/astro-compute/blob/main/SECURITY.md) before reporting sensitive issues.
